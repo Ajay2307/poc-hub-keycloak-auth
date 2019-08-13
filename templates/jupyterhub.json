@@ -174,7 +174,7 @@
                         "name": "3.1.0",
                         "from": {
                             "kind": "DockerImage",
-                            "name": "docker.io/ajay2307/jupyterhub:3.0.7"
+                            "name": "quay.io/jupyteronopenshift/jupyterhub:3.1.0"
                         }
                     }
                 ]
