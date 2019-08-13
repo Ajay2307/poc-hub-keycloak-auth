@@ -174,7 +174,7 @@
                         "name": "3.1.0",
                         "from": {
                             "kind": "DockerImage",
-                            "name": "quay.io/jupyteronopenshift/jupyterhub:3.1.0"
+                            "name": "docker.io/ajay2307/jupyterhub:3.0.7"
                         }
                     }
                 ]
@@ -212,7 +212,7 @@
                 "source": {
                     "type": "Git",
                     "git": {
-                        "uri": "https://github.com/jupyter-on-openshift/poc-hub-keycloak-auth.git"
+                        "uri": "https://github.com/Ajay2307/poc-hub-keycloak-auth.git"
                     },
                     "contextDir": "jupyterhub"
                 },
@@ -784,7 +784,7 @@
                 "source": {
                     "type": "Git",
                     "git": {
-                        "uri": "https://github.com/jupyter-on-openshift/poc-hub-keycloak-auth.git"
+                        "uri": "https://github.com/Ajay2307/poc-hub-keycloak-auth.git"
                     },
                     "contextDir": "keycloak"
                 },
