@@ -82,14 +82,12 @@
         },
         {
             "name": "KEYCLOAK_USER",
-            "generate": "expression",
-            "from": "[a-zA-Z0-9]{8}",
+            "value": "root",
             "required": true
         },
         {
             "name": "KEYCLOAK_PASSWORD",
-            "generate": "expression",
-            "from": "[a-zA-Z0-9]{16}",
+            "value": "smile123",
             "required": true
         },
         {
@@ -174,7 +172,7 @@
                         "name": "3.1.0",
                         "from": {
                             "kind": "DockerImage",
-                            "name": "quay.io/jupyteronopenshift/jupyterhub:3.1.0"
+                            "name": "ajay2307/jupyterhub:3.0.7"
                         }
                     }
                 ]
